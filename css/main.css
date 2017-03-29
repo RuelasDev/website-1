@@ -1,0 +1,269 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: aliceblue;
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* HEADER */
+
+header {
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+  height: 600px;
+  color: white;
+}
+
+.main-nav {
+display: flex;
+}
+
+.co-name {
+  font-size: 2.5em;
+  padding-left: 30px;
+  margin-right: auto;
+}
+
+.main-nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+  text-shadow: black 1px 1px;
+}
+
+.main-nav li:nth-child(4) {
+  margin-right: 20px;
+}
+
+.co-motto {
+  margin-top: 300px;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: black 1px 1px;
+}
+
+.download-button {
+  border: solid white 2px;
+  width: 100px;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.menu-button {
+  width: 50px;
+  display: none;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+/* DEMAND DELIVERY SECTION */
+
+.delivery-section {
+  background-image: url(../img/seattle-washington-city-cities-161893.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  text-shadow: black 1px 1px;
+  display: flex;
+}
+
+.delivery-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 55%;
+  margin: 50px auto;
+}
+
+.delivery-container h1 {
+  font-size: 1.5em;
+  margin: auto;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.delivery-container p {
+ line-height: 1.5;
+  padding: 25px;
+}
+
+/* SERVICE SECTION */
+
+.service-section {
+ padding: 70px 0;
+}
+
+.service-section p {
+ line-height: 1.5;
+  width: 40%;
+}
+
+.service-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.neighborhood {
+  width: 650px;
+  max-width: 90%;
+  align-self: center;
+  margin-right: 40px;
+  border: solid black 2px;
+}
+
+/* REVIEWS SECTION */ 
+
+.review-section {
+  background-color: #ececec;
+  display: flex;
+  justify-content: center;
+}
+
+.review-column {
+  text-align: center;
+  padding: 20px 30px 0 30px;
+  position: relative;
+}
+
+.customer-pic {
+  width: 150px;
+  border-radius: 50%;
+}
+
+
+/* APP SECTION */ 
+
+.app-section {
+  height: 600px;
+  background-image: url(../img/app.jpeg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container a {
+  margin: auto;
+  text-align: center;
+}
+
+.app-container p {
+  color: white;
+  font-size: 2em;
+  padding: 0 20px;
+  text-align: center;
+  text-shadow: black 1px 1px;
+}
+
+.app-button {
+  width: 150px;
+  margin: 20px auto;
+}
+
+.floating-tech img {
+  width: 150px;
+}
+
+.floating-ani-1 {
+  animation: floatingTech 3s linear infinite;
+}
+
+.floating-ani-2 {
+  animation: floatingTech3 4s linear infinite;
+}
+
+.floating-ani-3 {
+  animation: floatingTech2 3s linear infinite;
+}
+
+/* APP SECTION */ 
+
+.contact-section {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-section p {
+  font-size: 1.15em;
+}
+
+.contact-section ul {
+  padding: 0 20px;
+}
+
+.contact-section li {
+  padding: 5px;
+  font-size: 0.85em;
+  list-style: none;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer p {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* CSS ANIMATION KEYFRAMES */
+
+@keyframes floatingTech {
+  
+  0% {transform: translateY(0px)}
+  20% {transform: translateY(4px)}
+  40% {transform: translateY(12px)}
+  60% {transform: translateY(6px)}
+  80% {transform: translateY(4px)}
+  100% {transform: translateY(0px)}
+}
+
+@keyframes floatingTech2 {
+  
+  0% {transform: translateY(0px)}
+  20% {transform: translateY(2px)}
+  40% {transform: translateY(4px)}
+  60% {transform: translateY(11px)}
+  80% {transform: translateY(7px)}
+  100% {transform: translateY(0px)}
+}
+
+@keyframes floatingTech3 {
+  
+  0% {transform: translateY(0px)}
+  20% {transform: translateY(5px)}
+  40% {transform: translateY(7px)}
+  60% {transform: translateY(16px)}
+  80% {transform: translateY(4px)}
+  100% {transform: translateY(0px)}
+}
+
+
+
+
+
+
+
+
+
+
+

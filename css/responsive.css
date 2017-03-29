@@ -1,0 +1,151 @@
+
+
+@media screen and (max-width: 1200px) {
+  
+  /* DEMAND DELIVERY SECTION */
+  
+  .delivery-container {
+    width: 75%;
+  }
+  
+  /* SERVICE SECTION */ 
+  
+  .service-container {
+    flex-direction: column;
+  } 
+    
+   .service-section p {
+  width: 80%;
+}
+  
+  .neighborhood {
+    margin: 0;
+  }
+  
+  /* APP SECTION */ 
+  
+  .app-section {
+    flex-direction: column
+  }
+  
+  .app-container {
+    margin: 0;
+  }
+  
+}
+
+@media screen and (max-width: 920px) {
+  
+  
+  /* CONTACT SECTION */ 
+  
+  .contact-section {
+    flex-direction: column;
+  }
+  
+}
+
+
+@media screen and (max-width: 760px) {
+  
+  /* HEADER */
+  
+  .main-nav {
+    flex-direction: column;
+  }
+  
+  .co-name {
+    padding: 0;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .main-nav ul {
+    text-align: center;
+  }
+  
+  .main-nav li:nth-child(4) {
+    margin-right: 0;
+  }
+  
+  /* DEMAND DELIVERY SECTION */
+  
+  .delivery-container {
+    width: 100%;
+  }
+  
+  /* REVIEWS SECTION */
+  
+  .review-section {
+    flex-direction: column;
+  }
+  
+  /* SERVICE SECTION */
+  
+     .service-section p {
+  width: 90%;
+}
+  
+}
+
+
+@media screen and (max-width: 550px) {
+  
+  /* HEADER */
+  
+  .main-nav ul {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+   .main-nav li {
+    width: 80%;
+     padding: 0;
+     margin: 10px auto
+  }
+  
+  .delivery-container {
+    margin: 0 auto;
+  }
+  
+  .delivery-container h1 {
+    padding: 40px 25px 30px 25px;
+  }
+  
+  .delivery-container p {
+    padding: 15px;
+  }
+  
+  .co-motto {
+    font-size: 1.5em;
+    position: absolute;
+    padding: 40px 0;
+    width: 100%;
+    margin-top: 100px;
+ 
+  }
+  
+  .download-button {
+    margin-top: 220px;
+  }
+  
+  .menu-button {
+    display: block;
+  }
+  
+  .closed {
+  height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.open {
+height: 156px;
+}
+  
+  /* SERVICE SECTION */ 
+  
+  .floating-tech img {
+    width: 80px;
+  }
+  
+}
